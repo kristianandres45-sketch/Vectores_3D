@@ -28,8 +28,8 @@ st.set_page_config(page_title="VECTORES 3D", layout="wide")       # Título de l
 # Parámetros (EDITABLES)
 # =============================
 
-LOGO_IZQ = r"C:\Users\ANGIE\Escritorio\Proyecto Curso\ESPE_102_años.png"       # Colocamos la ruta al logo izquierdo (opcional)
-LOGO_DER = r"C:\Users\ANGIE\Escritorio\Proyecto Curso\Aguila_ESPE.jpeg"        # Colocamos la ruta al logo derecho (opcional)
+LOGO_IZQ = r"ESPE_102_años.png"       # Colocamos la ruta al logo izquierdo (opcional)
+LOGO_DER = r"Aguila_ESPE.jpeg"        # Colocamos la ruta al logo derecho (opcional)
 
 # =============================
 # UI: Encabezado con logos
@@ -241,4 +241,5 @@ st.pyplot(fig_static)
 st.write("**Gráfica Dinámica**")
 fig_interactive = graf_vector2(vector1, vector2)
 st.plotly_chart(fig_interactive, use_container_width=True)
+
 
